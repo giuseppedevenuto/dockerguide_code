@@ -1,0 +1,5 @@
+name: dockerguide_env
+channels:
+  - defaults
+dependencies:
+  - python=3.11.13
