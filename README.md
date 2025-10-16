@@ -21,10 +21,10 @@ pip install ./cross_analytics-master
 
 * Run code locally
 ```Bash
-python main.py ../dati
+python main.py <host-input-data-folder>
 ```
 
 * Build docker image
 ```Bash
-docker build -t <dockerhubusername>/clinicianscode:latest <folderpath>
+docker build -t <dockerhubusername>/dockerguide:latest <folderpath>
 ```
