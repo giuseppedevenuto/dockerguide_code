@@ -26,3 +26,8 @@ python main.py <host-input-data-folder>
 ```Bash
 docker build -t <dockerhubusername>/dockerguide:latest <folderpath>
 ```
+
+* Push image to Docker Hub
+```Bash
+docker push <dockerhubusername>/dockerguide
+```
