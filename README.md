@@ -28,16 +28,3 @@ python main.py ../dati
 ```Bash
 docker build -t <dockerhubusername>/clinicianscode:latest <folderpath>
 ```
-
-
-
-
-
-* Run docker image locally
-```Bash
-docker run --rm --gpus all -v ../dati:/dati <dockerhubusername>/clinicianscode /dati
-```
-
-* Pull the docker code from the repository
-```Bash
-docker pull <dockerhubusername>/clinicianscode
