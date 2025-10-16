@@ -14,5 +14,8 @@ RUN conda env create -f environment.yml
 # Activete conda environment when the container starts
 SHELL ["conda", "run", "-n", "dockerguide_env", "/bin/bash", "-c"]
 
+# Install the private library via setup.py
+RUN pip install ./cross_analytics-master
+
 # Default command
 ENTRYPOINT ["conda", "run", "-n", "dockerguide_env", "python", "main.py"]
